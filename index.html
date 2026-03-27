@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./data (1).js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Country-Explorer</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/world.png" alt="globe icon" class="image">
+        <h1>Country Explorer</h1>
+    </header>
+    <main>
+
+        <form>
+        <label for="text" class="search">Search by Country Name:</label>
+        <input type="text" id="search-input" placeholder="Search by Country Name..." />
+
+        <label for="text">Select a Region:</label>
+        <select name="region" id="region" aria-placeholder="All Regions"></select>
+
+        <label for="text">Search by Population:</label>
+        <input type="number" name="population" id="population">
+        </form>
+
+    <div id="country-cards-container">
+        <div id="country-card">
+            <img src="./assets/" alt="flag" style="width: 100%">
+            <h2>Country Name</h2>
+            Population: <p id="population">00000</p>
+            Capital: <p id="capital">city name</p>
+            Region: <p id="region">religion name</p>
+        </div>
+
+    </div>
+
+    </main>
+    <button>Show More</button>
+</body>
+</html>

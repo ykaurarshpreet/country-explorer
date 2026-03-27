@@ -1,0 +1,89 @@
+
+header{
+    background-color: #333333;
+    width: 100%;
+    height: 102px;
+    padding: 6px;
+    position: sticky;
+    overflow: hidden;
+    
+    h1{
+        text-align: center;
+        position: relative;
+        font-size: 2.3em;
+        
+    }
+    
+}
+
+.image{
+    position: absolute;
+    right: 65%;
+    height: 6em;
+}
+
+main{
+   background-color: #f3f3f3; 
+   padding: 32px;
+}
+
+form{
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    
+    input,select {
+        vertical-align: middle;
+        margin: 10px 5px 10px 0;
+        
+    }
+
+    /* label{
+        align-content: ;
+    } */
+
+    /* label{
+        display: block;
+    } */
+}
+
+
+
+
+#search-input{
+    height: 49.6px;
+    border-radius: 5px;
+}
+
+#region{
+    height: 49.6px;
+    border-radius: 5px;
+}
+
+#population{
+    height: 49.6px;
+    border-radius: 5px;
+}
+
+#country-cards-container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding: 10px;
+}
+
+#country-card{
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+/* Font: Arial, sans-serif
+Colors: 
+Background color - #f3f3f3
+Contrasting background - #e0e0e0
+Main elements - #000000
+White elements - #FFFFFF
+Borders: Must be 5px round on all form elements
+Font-size: 
+Body font size - 16px 
+Error messages font size - 12px */
