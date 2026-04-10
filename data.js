@@ -1,4 +1,4 @@
-let data = [
+ let data = [
   {
       "name": {
           "common": "India",
@@ -841,3 +841,6 @@ let data = [
       ]
   }
 ]
+
+
+export default data;
